@@ -1,7 +1,7 @@
 # csmodel-mp
 **CSMODEL Major Course Output: Dataset Case Study**
 
-A Case Study about the "Spotify Top Hits from 2000-2019" Dataset
+A Case Study on the "Spotify Top Hits from 2000-2019" Dataset
 
 ### Pertinent Links:
 [Project Specifications]()<br>
