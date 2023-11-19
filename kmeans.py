@@ -63,7 +63,7 @@ class KMeans(object):
         # centroid.
         index = np.random.randint(low=0, high=self.num_observations)
         point = data.iloc[index, self.start_var:self.end_var]
-        self.centroids = self.centroids.append(point, ignore_index=True)
+        self.centroids = self.centroids._append(point, ignore_index=True)
         sliced_data = data.iloc[:, self.start_var:self.end_var]
 
         # Step 2: Select the remaining centroids.
